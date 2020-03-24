@@ -1,4 +1,3 @@
-import cv2 as cv
 import numpy as np
 
 
@@ -43,4 +42,3 @@ def rgb2lab(img_rgb):
 
     Lab = np.stack([L.reshape([M, N]), a.reshape([M, N]), b.reshape([M, N])], axis=2)
     return Lab
-

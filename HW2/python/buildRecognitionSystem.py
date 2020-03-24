@@ -5,8 +5,6 @@ import os
 from python.createFilterBank import create_filterbank
 from python.getImageFeatures import get_image_features
 
-dir_path = '../data'
-
 traintest_file = open('../data/traintest.pkl', 'rb')
 traintest = pickle.load(traintest_file)
 traintest_file.close()

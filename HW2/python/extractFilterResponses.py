@@ -1,8 +1,5 @@
-import cv2 as cv
-import numpy as np
-from RGB2Lab import rgb2lab
-from utils import *
-import matplotlib.pylab as plt
+from python.RGB2Lab import rgb2lab
+from python.utils import *
 
 
 def extract_filter_responses(I, filterBank):
@@ -14,7 +11,6 @@ def extract_filter_responses(I, filterBank):
     # -----fill in your implementation here --------
     I_lab = rgb2lab(I)
     filterResponses = []
-    n=0
     for i in filterBank:
         I_filt_1 = imfilter(I_lab[:,:,0],i)
         I_filt_2 = imfilter(I_lab[:,:,1],i)

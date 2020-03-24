@@ -5,7 +5,6 @@ import cv2 as cv
 from python.createFilterBank import create_filterbank
 from python.getVisualWords import get_visual_words
 
-
 def worker_to_visual_words(wind):
     meta = pickle.load(open('../data/traintest.pkl', 'rb'))
     all_imagenames = meta['all_imagenames']
@@ -25,8 +24,7 @@ def worker_to_visual_words(wind):
 
 
 if __name__ == '__main__':
-
-    num_cores = 2
+    num_cores = 4
     workers = []
     for i in range(num_cores):
         workers.append(multiprocessing.Process(target=worker_to_visual_words, args=(i,)))

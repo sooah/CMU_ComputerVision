@@ -1,9 +1,9 @@
 import numpy as np
-from scipy import ndimage
-
+# from scipy import ndimage
+import scipy.ndimage.filters as filters
 
 def imfilter(I, h):
-    I_f = ndimage.filters.correlate(I, h, mode='constant')
+    I_f = filters.correlate(I, h, mode='constant')
     return I_f
 
 
