@@ -75,3 +75,17 @@
 ##### 3. Creating your Augmented Reality application
 - Incorporating video
 
+---------------------------------------------
+### HW5
+#### 3D Reconstruction
+##### 1. Sparse Reconstruction
+- Implement the eight point algorithm
+- Find epipolar correspondences
+- Write a function to compute the essential matrix
+- Implement triangulation
+- Write a test script that uses data/temple_coords.npz
+
+##### 2. Dense Reconsturction
+- Image Rectification
+- Dense window matching to find per pixel disparity
+- Depth map
