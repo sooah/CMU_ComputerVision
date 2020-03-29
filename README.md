@@ -1,5 +1,7 @@
 # CMU_ComputerVision
 
+This is a summary of the task.
+
 ### HW1 
 #### Image Filtering and Hough Transform
 - Hough Transform Line Parametrization
@@ -74,8 +76,8 @@
 
 ##### 3. Creating your Augmented Reality application
 - Incorporating video
-
 ---------------------------------------------
+
 ### HW5
 #### 3D Reconstruction
 ##### 1. Sparse Reconstruction
@@ -89,3 +91,12 @@
 - Image Rectification
 - Dense window matching to find per pixel disparity
 - Depth map
+---------------------------------------------
+
+### HW6
+#### Video Tracking
+##### 1. Lucas-Kanade Tracker
+- Lucas-Kanade Forward Addictive Alignment with Translation
+- Lucas-Kanade Forward Addictive Alignment with Affine Transformation
+- Inverse Compositional Alignment with Affine Transformation
+- Test Algorithm
