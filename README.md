@@ -14,7 +14,7 @@ This is a summary of the task.
 ---------------------------------------------
 
 ### HW2
-#### Scne recognition with bag of words
+#### Scene recognition with bag of words
 ##### Part1. Build Visual Words Dictionary
 - Extract Filter Responses
 - Collect sample of points from image
